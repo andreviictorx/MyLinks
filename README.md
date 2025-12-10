@@ -1,73 +1,113 @@
-# Welcome to your Lovable project
+# 🚀 Tech Link Hub
 
-## Project info
+Projeto de **Link na Bio profissional** desenvolvido com **React + Vite + TypeScript + Tailwind CSS + shadcn/ui**.  
+Ideal para devs, freelancers e criadores que querem centralizar seus links em um só lugar.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## ✅ Tecnologias Utilizadas
 
-There are several ways of editing your application.
+- ⚡ Vite
+- ⚛️ React
+- 🧠 TypeScript
+- 🎨 Tailwind CSS
+- 🧩 shadcn/ui
+- 🔍 ESLint
+- 📦 npm
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 📁 Estrutura do Projeto
 
-Changes made via Lovable will be committed automatically to this repo.
+```bash
+public/              # Arquivos públicos (PDF, imagens, favicon)
+src/
+ ├─ components/      # Componentes reutilizáveis
+ ├─ hooks/           # Hooks personalizados
+ ├─ pages/           # Páginas da aplicação
+ ├─ lib/             # Funções utilitárias
+ ├─ App.tsx
+ ├─ main.tsx
+ └─ index.css
 
-**Use your preferred IDE**
+🛠️ Como Rodar o Projeto Localmente
+Pré-requisitos:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Node.js instalado
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+npm ou yarn
 
-Follow these steps:
+Passo a passo:
+# 1. Clone o repositório
+git clone https://github.com/SEU_USUARIO/SEU_REPO.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 2. Acesse a pasta do projeto
+cd SEU_REPO
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 3. Instale as dependências
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Rode o projeto
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+A aplicação ficará disponível em:
 
-**Use GitHub Codespaces**
+http://localhost:5173
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📎 Como Adicionar Links (Currículo, Instagram, WhatsApp)
+✅ Currículo (PDF)
 
-## What technologies are used for this project?
+Coloque o arquivo em:
 
-This project is built with:
+public/curriculo.pdf
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+E use no código:
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+href="/curriculo.pdf"
 
-## Can I connect a custom domain to my Lovable project?
+✅ Instagram
+href="https://www.instagram.com/seu_usuario"
 
-Yes, you can!
+✅ WhatsApp
+href="https://wa.me/5599999999999"
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Ou com mensagem automática:
+
+href="https://wa.me/5599999999999?text=Olá!%20Vim%20pelo%20seu%20site"
+
+🚀 Deploy do Projeto
+
+Você pode publicar facilmente usando:
+
+✅ Vercel
+
+✅ Netlify
+
+✅ GitHub Pages
+
+✅ Lovable (se preferir manter integração)
+
+Exemplo com Vercel:
+npm install -g vercel
+vercel
+
+🌍 Domínio Personalizado (Opcional)
+
+Se estiver usando Lovable, você pode configurar um domínio em:
+
+Project > Settings > Domains
+
+🧑‍💻 Autor
+
+Desenvolvido por Andre Victor
+💼 Desenvolvedor Front-End
+📸 Instagram: https://instagram.com/andreviictor.dev
+
+💬 WhatsApp: https://wa.me/55SEUNUMERO
+
+📜 Licença
+
+Este projeto é de uso livre para estudos e personalização.
