@@ -6,7 +6,7 @@ import LinkCard from '@/components/LinkCard';
 
 
 const links = [
-  { icon: Layout, label: 'Portfólio', href: 'https://github.com/andreviictorx' },
+  { icon: Layout, label: 'Portfólio', href: 'https://portfolio-avictordev.vercel.app/' },
   { icon: Github, label: 'GitHub', href: 'https://github.com/andreviictorx' },
   { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/avictor.dev' },
   { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/andreviictor/'},
