@@ -11,7 +11,7 @@ const links = [
   { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/avictor.dev' },
   { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/andreviictor/'},
   { icon: MessageCircle, label: 'WhatsApp', href: 'https://wa.me/5598985193088' },
-  { icon: FileText, label: 'Currículo', href: '/public/curriculo-andre-victor.pdf' },
+  { icon: FileText, label: 'Currículo', href: '/curriculo-andre-victor.pdf' },
 ];
 
 const Index = () => {
