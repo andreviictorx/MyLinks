@@ -39,10 +39,10 @@ npm ou yarn
 
 Passo a passo:
 # 1. Clone o repositório
-git clone https://github.com/SEU_USUARIO/SEU_REPO.git
+git clone https://github.com/andreviictorx/MyLinks.git
 
 # 2. Acesse a pasta do projeto
-cd SEU_REPO
+cd MyLinks
 
 # 3. Instale as dependências
 npm install
@@ -55,58 +55,16 @@ A aplicação ficará disponível em:
 
 http://localhost:5173
 
-📎 Como Adicionar Links (Currículo, Instagram, WhatsApp)
-✅ Currículo (PDF)
-
-Coloque o arquivo em:
-
-public/curriculo.pdf
-
-
-E use no código:
-
-href="/curriculo.pdf"
 
 ✅ Instagram
-href="https://www.instagram.com/seu_usuario"
+href="https://www.instagram.com/avictor.dev"
 
-✅ WhatsApp
-href="https://wa.me/5599999999999"
-
-
-Ou com mensagem automática:
-
-href="https://wa.me/5599999999999?text=Olá!%20Vim%20pelo%20seu%20site"
-
-🚀 Deploy do Projeto
-
-Você pode publicar facilmente usando:
-
-✅ Vercel
-
-✅ Netlify
-
-✅ GitHub Pages
-
-✅ Lovable (se preferir manter integração)
-
-Exemplo com Vercel:
-npm install -g vercel
-vercel
-
-🌍 Domínio Personalizado (Opcional)
-
-Se estiver usando Lovable, você pode configurar um domínio em:
-
-Project > Settings > Domains
 
 🧑‍💻 Autor
 
 Desenvolvido por Andre Victor
 💼 Desenvolvedor Front-End
 📸 Instagram: https://instagram.com/andreviictor.dev
-
-💬 WhatsApp: https://wa.me/55SEUNUMERO
 
 📜 Licença
 
